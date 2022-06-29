@@ -46,7 +46,7 @@ const Navbar = ({toggle}) => {
                         </MobileIcon>
                         <NavMenu>
                             <NavItem>
-                                <NavLinks to="quisommesnous"
+                                <NavLinks scrollNav={scrollNav} to="quisommesnous"
                                     smooth={true}
                                     duration={500}
                                     spy={true}
@@ -55,7 +55,7 @@ const Navbar = ({toggle}) => {
                                 >QUI SOMMES NOUS ?</NavLinks>
                             </NavItem>
                             <NavItem>
-                                <NavLinks to="services"
+                                <NavLinks scrollNav={scrollNav} to="services"
                                     smooth={true}
                                     duration={500}
                                     spy={true}
@@ -64,7 +64,7 @@ const Navbar = ({toggle}) => {
                                 >NOS SERVICES</NavLinks>
                             </NavItem>
                             <NavItem>
-                                <NavLinks to="prestations"
+                                <NavLinks scrollNav={scrollNav} to="prestations"
                                     smooth={true}
                                     duration={500}
                                     spy={true}

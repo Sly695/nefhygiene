@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link, Navigate } from 'react-router-dom';
 import image from "../../../src/image/bureaux.jpeg";
 import image1 from "../../../src/image/hotel.jpeg";
-import image2 from "../../../src/image/usine.png";
+import image2 from "../../../src/image/usine.jpg";
 import image3 from "../../../src/image/centre_de_sante.jpeg";
 import image4 from "../../../src/image/logement.jpeg";
 
@@ -46,7 +46,7 @@ const Presentation = (
     image1,
     image2,
     image3,
-    image4
+    image4,
   ]
 
   const contentStyle = {
@@ -81,7 +81,7 @@ const Presentation = (
                   Située en région lyonnaise, nous proposons des prestations sur mesure. Bénéficez de nos services adaptés à vos besoins.
                 </Subtitle>
                 <Subtitle>
-                  Nous agissons dans touts types de locaux :
+                  Nous agissons dans tous types de locaux :
                 </Subtitle>
                 <Subtitle>
                   Bureaux, Hotêllerie, Usines, Centre de santé, Logement, Groupe scolaire, Transport en commun, Copropriété, Administration, Banque etc
@@ -95,8 +95,8 @@ const Presentation = (
               }}>
                 <Carousel dotPosition="top" autoplay
                   style={{
-                    height: '100%',
-                    width: '100%',
+                    height: '90%',
+                    width: '90%',
                   }}>
                   {displayImages}
                 </Carousel>

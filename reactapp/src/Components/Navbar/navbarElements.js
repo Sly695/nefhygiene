@@ -76,18 +76,23 @@ export const NavItem = styled.li`
     height: 80px;
     font-family: 'Roboto Condensed', sans-serif;
     margin: auto;
+    font-weight: 100;
     
-
 `;
 
 export const NavLinks = styled(LinkS)`
     color: #fff;
     display: flex;
     align-items: center;
+
     text-decoration: none;
     padding: 0 1rem;
     height: 100%;
     cursor: pointer;
+
+    &:hover{
+        color: ${({ scrollNav }) => (scrollNav ? '#aeca53' : '#aeca53')};
+    }
     
 
     &.active {
@@ -99,6 +104,7 @@ export const NavBtn = styled.nav`
     display: flex;
     align-items: center;
     font-family: 'Roboto Condensed', sans-serif;
+    color: #000;
     
     @media screen and (max-width: 768px) {
         display: none;
@@ -110,7 +116,7 @@ export const NavBtnLink = styled(LinkR)`
     background: ${({ scrollNav }) => (scrollNav ? '#fff' : '#02AFE7')};
     white-space: nowrap;
     padding: 10px 22px;
-    color: ${({ scrollNav }) => (scrollNav ? '#02AFE7' : '#fff')};;
+    color: ${({ scrollNav }) => (scrollNav ? '#02AFE7' : '#fff')};
     font-size: 16px;
     outline: none;
     border: none;
@@ -121,6 +127,7 @@ export const NavBtnLink = styled(LinkR)`
     &:hover {
         transition: all 0.2s ease-in-out;
         background: #fff;
-        color: #010606;
+        color: #aeca53;
+        
     }
 `;

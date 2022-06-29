@@ -11,6 +11,7 @@ export const Container = styled.div`
     top: 0;
     z-index: 0;
     overflow: hidden;
+    padding: 10px;
 
     background: #8edff5;
 `;
@@ -40,11 +41,11 @@ export const Icon = styled.img`
     cursor: pointer;
 
     @media screen and (max-width: 480px){
-        height: 60px;
-        width: 60px;
+        height: 100px;
+        width: 80px;
         margin-left: 16px;
         margin-top: 80px;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
         padding: 10px;
     }
 `;
@@ -139,17 +140,25 @@ export const FormSelect = styled.select`
 export const FormWrapper = styled.div`
     display: flex;
     justify-content: space-between;
+
+    @media screen and (max-width: 768px){
+        flex-direction: column;
+    }
+    
+    
 `;
 
 export const InputWrapper = styled.div`
     display: flex;
     flex-direction: column;
+
+
 `;
 
 export const FormSentence = styled.p`
     color: #02AFE7;
     text-align: center;
-    font-size: 8px;
+    font-size: 12px;
     padding: 0px;
 `;
 

@@ -19,8 +19,8 @@ import {
 
 import { Carousel } from 'react-bootstrap';
 
-import img1 from '../../../src/image/background_img.png';
-import img2 from '../../../src/image/Prestation.svg';
+import img1 from '../../../src/image/cleaning.jpg';
+import img2 from '../../../src/image/desinfection.jpg';
 
 
 const contentStyle = {
@@ -68,10 +68,10 @@ const ServiceSection = (
                 <Heading lightText={lightText}>Pourquoi les choisir ?</Heading>
                 <Subtitle darkText={darkText}>
                   Au vu du contexte sanitaire actuel , vivre dans un espace sain et désinfecté relève d’un devoir.
-                  L’hygiène de vos locaux est primordial pour la pérennité de votre activité.
+                  L’hygiène de vos locaux est primordiale pour la pérennité de votre activité.
                   Cela peut éviter dans un premier temps d’être un lieu de circulation de virus et bactéries.
-                  Vous pourrez éviter la fermeture de votre espace de travail lié à des personnes infectées et donc empêcher la perte d’une partie de votre chiffre d’affaire.
-                  Faites un calcul simple : a combien estimez vous vos pertes annuels liées aux jours de congés maladies de vos employés ?
+                  Vous pourrez éviter la fermeture de votre espace de travail lié à des personnes infectées et donc empêcher la perte d’une partie de votre chiffre d’affaires.
+                  Faites un calcul simple : a combien estimez-vous vos pertes annuelles liées aux jours de congés maladies de vos employés ?
                   N’attendez plus et profitez de nos services !
                   Nous comprenons vos attentes , vos besoins et nous nous efforcerons de trouver des solutions adaptées à vos exigences .
                   NEF HYGIÈNE met à votre disposition son professionnalisme, sa polyvalence et son savoir faire pour les différentes missions à effectuer .
@@ -83,7 +83,7 @@ const ServiceSection = (
               <TextWrapper>
                 <ImgWrapper>
                   <Img src={img1} style={{ height: "25%", width: "60%", marginBottom: "30px" }} />
-                  <Img src={img2} style={{ height: "25%", width: "60%", marginBottom: "30px" }} />
+                  <Img src={img2} style={{ height: "1%", width: "60%", marginBottom: "30px" }} />
                 </ImgWrapper>
               </TextWrapper>
             </Column2>

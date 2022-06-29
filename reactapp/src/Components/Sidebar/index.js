@@ -7,7 +7,8 @@ import {
     SidebarMenu,
     SidebarLink,
     SideBtnWrap,
-    SidebarRoute
+    SidebarRoute,
+    SidebarRouteContact
 } from './SidebarElements'
 
 const Sidebar = ({ isOpen, toggle }) => {
@@ -22,10 +23,8 @@ const Sidebar = ({ isOpen, toggle }) => {
                         <SidebarLink to="quisommesnous" onClick={toggle}>Qui sommes nous ?</SidebarLink>
                         <SidebarLink to="services" onClick={toggle}>Nos services</SidebarLink>
                         <SidebarLink to="prestations" onClick={toggle}>Nos prestations</SidebarLink>
+                        <SidebarLink onClick={toggle}><SidebarRouteContact to='/contact'>Contacter</SidebarRouteContact></SidebarLink>
                     </SidebarMenu>
-                    <SideBtnWrap>
-                        <SidebarRoute to='/contact'>Contacter</SidebarRoute>
-                    </SideBtnWrap>
                 </SidebarWrapper>
             </SidebarContainer>
         </>

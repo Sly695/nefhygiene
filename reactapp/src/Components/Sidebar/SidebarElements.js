@@ -61,11 +61,11 @@ export const SidebarLink = styled(LinkS)`
     list-style: none;
     transition: 0.2s ease-in-out;
     text-decoration: none;
-    color: #fff;
+    color: #02AFE7;
     cursor: pointer;
     
     &:hover {
-        color: #02AFE7;  
+        color: #FFF;  
         transition: 0.2s ease-in-out;
     }
  `;
@@ -75,24 +75,12 @@ export const SideBtnWrap = styled.div`
     justify-content: center;
  `;
 
-export const SidebarRoute = styled(LinkR)`
-    border-radius: 50px;
-    background: #02AFE7;
-    white-space: nowrap;
-    padding: 16px 64px;
-    color: #fff;
-    font-size: 16px;
-    outline: none;
-    border: none;
-    cursor: pointer;
-    transition: all 0.2s ease-in-out;
+export const SidebarRouteContact = styled(LinkR)`
     text-decoration: none;
-
+    color: #02AFE7;
+    
     &:hover {
-        transition: all 0.2s ease-in-out;
-        background: #fff;
-        color: #010606;
-
+        color: #FFF;  
+        transition: 0.2s ease-in-out;
     }
- `;
-
+`;

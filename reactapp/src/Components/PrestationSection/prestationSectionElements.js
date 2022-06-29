@@ -144,7 +144,20 @@ export const CardPackItem = styled.li`
 
 export const BarSeparation = styled.div`
     width: 100%;
-    border: 1px solid #02AFE7;
+    border: 1px solid #aeca53;
     color: red;
     margin-top: 3%;
+`;
+
+export const Details = styled.p`
+    color: #02AFE7;
+    text-align: right;
+    position: absolute;
+    right: 20px;
+    bottom 0px;
+
+    &:hover{
+        color: #aeca53;
+        cursor: pointer;
+    }
 `;
