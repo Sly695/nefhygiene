@@ -35,23 +35,12 @@ const contentStyle = {
 
 const ServiceSection = (
   lightBg,
-  id,
-  imgStart,
-  topLine,
   lightText,
-  headLine,
   darkText,
-  description,
-  buttonLabel,
   img,
-  alt,
-  primary,
-  dark,
-  dark2
 ) => {
 
   const [index, setIndex] = useState(0);
-
   const handleSelect = (selectedIndex, e) => {
     setIndex(selectedIndex);
   };
@@ -67,14 +56,17 @@ const ServiceSection = (
                 <TopLine>Nos services</TopLine>
                 <Heading lightText={lightText}>Pourquoi les choisir ?</Heading>
                 <Subtitle darkText={darkText}>
-                  Au vu du contexte sanitaire actuel , vivre dans un espace sain et désinfecté relève d’un devoir.
+                  Au vu du contexte sanitaire actuel, vivre dans un espace sain et désinfecté relève d’un devoir.
+                </Subtitle>
+                <Subtitle>
                   L’hygiène de vos locaux est primordiale pour la pérennité de votre activité.
                   Cela peut éviter dans un premier temps d’être un lieu de circulation de virus et bactéries.
                   Vous pourrez éviter la fermeture de votre espace de travail lié à des personnes infectées et donc empêcher la perte d’une partie de votre chiffre d’affaires.
-                  Faites un calcul simple : a combien estimez-vous vos pertes annuelles liées aux jours de congés maladies de vos employés ?
-                  N’attendez plus et profitez de nos services !
-                  Nous comprenons vos attentes , vos besoins et nous nous efforcerons de trouver des solutions adaptées à vos exigences .
-                  NEF HYGIÈNE met à votre disposition son professionnalisme, sa polyvalence et son savoir faire pour les différentes missions à effectuer .
+                  Faites un calcul simple : à combien estimez-vous vos pertes annuelles liées aux jours de congés maladies de vos employés ?
+                  N’attendez plus et profitez de nos services! Nous comprenons vos attentes, vos besoins et nous nous efforcerons de trouver des solutions adaptées à vos exigences.
+                </Subtitle>
+                <Subtitle>
+                  NEF HYGIÈNE met à votre disposition son professionnalisme, sa polyvalence et son savoir faire pour les différentes missions à effectuer.
                   Nous nous adressons aussi bien aux professionnels qu’aux particuliers , notre politique étant de permettre à chacun de bénéficier de prestations de services abordables.
                 </Subtitle>
               </TextWrapper>
@@ -82,8 +74,8 @@ const ServiceSection = (
             <Column2>
               <TextWrapper>
                 <ImgWrapper>
-                  <Img src={img1} style={{ height: "25%", width: "60%", marginBottom: "30px" }} />
-                  <Img src={img2} style={{ height: "1%", width: "60%", marginBottom: "30px" }} />
+                  <Img src={img1} style={{ width: "60%", marginBottom: "30px" }} />
+                  <Img src={img2} style={{ width: "60%", marginBottom: "30px" }} />
                 </ImgWrapper>
               </TextWrapper>
             </Column2>

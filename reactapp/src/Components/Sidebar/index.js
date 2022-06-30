@@ -6,9 +6,7 @@ import {
     SidebarWrapper,
     SidebarMenu,
     SidebarLink,
-    SideBtnWrap,
-    SidebarRoute,
-    SidebarRouteContact
+    SidebarRouteContact,
 } from './SidebarElements'
 
 const Sidebar = ({ isOpen, toggle }) => {

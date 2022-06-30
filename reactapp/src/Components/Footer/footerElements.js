@@ -20,6 +20,7 @@ export const FooterWrap = styled.div`
 export const FooterLinksContainer = styled.div`
     display: flex;
     justify-content: center;
+    width: 100%;
 
     @media screen and (max-width: 820px) {
         padding-top: 32px;
@@ -28,8 +29,9 @@ export const FooterLinksContainer = styled.div`
 
 export const FooterLinksWrapper = styled.div`
     display: flex;
-
-
+    justify-content: center;
+    width: 600px; 
+    
     @media screen and (max-width: 820px){
         flex-direction: column;
     }
@@ -123,4 +125,5 @@ export const SocialIconLink = styled.a`
 export const Img = styled.img`
     height: 100px;
     width: 200px;
+    margin: auto;
 `;

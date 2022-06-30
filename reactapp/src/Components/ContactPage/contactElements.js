@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { Link } from 'react-router-dom';
+import { Link as LinkR } from 'react-router-dom';
 import img from '../../image/LogoNEF.svg'
 
 export const Container = styled.div`
@@ -11,7 +11,6 @@ export const Container = styled.div`
     top: 0;
     z-index: 0;
     overflow: hidden;
-    padding: 10px;
 
     background: #8edff5;
 `;
@@ -22,31 +21,16 @@ export const FormWrap = styled.div`
     flex-direction: column;
     justify-content: center;
 
-    @media screen and (max-width: 400px){
-        height: 80%;
-    }
 `;
 
 export const Icon = styled.img`
-    background: url("${img}")
-    margin-left: 32px;
-    margin-top: 42px;
-    text-decoration: none;
-    color: #fff;
-    font-weight: 700;
-    font-size: 32px;
-    height: 100px;
     width: 100px;
-    margin: auto;
+    height: 100px;
     cursor: pointer;
+    background-repeat: no-repeat;
+    margin: auto;
 
     @media screen and (max-width: 480px){
-        height: 100px;
-        width: 80px;
-        margin-left: 16px;
-        margin-top: 80px;
-        margin-bottom: 40px;
-        padding: 10px;
     }
 `;
 
@@ -68,14 +52,11 @@ export const Form = styled.div`
     width: 100%;
     z-index: 1;
     display: grid;
-    margin: 0 auto;
-    padding: 25px 32px;
+    margin: auto;
+    padding: 10px 32px;
     border-radius: 4px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.9);
 
-    @media screen and (max-width: 400px){
-        padding: 10px 32px;
-    }
 `;
 
 export const FormH1 = styled.h1`
@@ -100,6 +81,10 @@ export const FormInput = styled.input`
     border: none;
     border-radius: 4px;
     margin: auto;
+
+    @media screen and (max-width: 480px){
+        padding: 1px 1px;
+    }
 
 
 `;
@@ -133,6 +118,7 @@ export const FormSelect = styled.select`
 
     @media screen and (max-width: 768px){
         width: 100%;
+        padding: 3px 0px;
     }
 
 `;
@@ -142,7 +128,7 @@ export const FormWrapper = styled.div`
     justify-content: space-between;
 
     @media screen and (max-width: 768px){
-        flex-direction: column;
+        flex-direction: row;
     }
     
     
@@ -158,8 +144,17 @@ export const InputWrapper = styled.div`
 export const FormSentence = styled.p`
     color: #02AFE7;
     text-align: center;
-    font-size: 12px;
+    font-size: 10px;
     padding: 0px;
+
+    @media screen and (max-width: 768px){
+        width: 100%;
+        font-size: 8px;
+    }
+`;
+
+export const SidebarRouteContact = styled(LinkR)`
+
 `;
 
 

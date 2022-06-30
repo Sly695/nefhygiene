@@ -9,15 +9,15 @@ import {
     FormInput,
     FormLabel,
     FormButton,
-    Text,
     FormSelect,
     FormWrapper,
     InputWrapper,
-    FormSentence
+    FormSentence,
+    SidebarRouteContact
 } from './contactElements';
-import { Navigate } from 'react-router-dom';
 
 import img from '../../image/LogoNEF.svg';
+import { useNavigate } from 'react-router-dom';
 
 
 const ContactPage = () => {
@@ -30,6 +30,7 @@ const ContactPage = () => {
     const [message, setMessage] = useState("");
     const [response, setResponse] = useState(false);
     const [phoneNumber, setPhoneNumber] = useState("");
+    const navigate = useNavigate();
 
     function onChangeEmail(arg) {
         setEmail(arg)
@@ -74,16 +75,22 @@ const ContactPage = () => {
 
     }
 
+    function toHomePage() {
+        return (
+           navigate('/')
+        )
+    }
+
     return (
         <>
             <Container>
                 <FormWrap>
-                    <Icon to="/" src={img} />
+                    <Icon onClick={() => toHomePage()} src={img} />
                     <FormContent>
                         <Form>
                             <FormH1>Contactez-nous</FormH1>
                             <FormSentence>
-                                Nous nous engageons à vous fournir un devis sur un délai de 24H. Devis gratuit sans engagement. Intervention uniquement en Auvergne Rhône-Alpes
+                                Nous nous engageons à vous fournir un devis sur un délai de 24H. Devis gratuit sans engagement. intervention auvergnes Rhônes-Alpes en attendant le déploiement national.
                             </FormSentence>
                             <FormWrapper>
                                 <InputWrapper>
@@ -134,7 +141,7 @@ const ContactPage = () => {
                                     <option value="3D">Pack 3D</option>
                                 </FormSelect>
                             </InputWrapper>
-                            <FormLabel htmlFor='for'>Message</FormLabel>
+                            <FormLabel htmlFor='for'>Message ou joignez nous au 06 99 56 23 75</FormLabel>
                             <FormInput onChange={(arg) => onChangeMessage(arg.target.value)} type="text" required />
                             <FormButton onClick={() => submit()}>Envoyer</FormButton>
                             <p style={{ marginTop: "15px", color: "#02AFE7", textAlign: "center" }}>{response}</p>

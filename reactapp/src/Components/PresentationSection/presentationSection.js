@@ -81,10 +81,10 @@ const Presentation = (
                   Située en région lyonnaise, nous proposons des prestations sur mesure. Bénéficez de nos services adaptés à vos besoins.
                 </Subtitle>
                 <Subtitle>
-                  Nous agissons dans tous types de locaux :
+                  Nous agissons dans tous types de locaux:
                 </Subtitle>
                 <Subtitle>
-                  Bureaux, Hotêllerie, Usines, Centre de santé, Logement, Groupe scolaire, Transport en commun, Copropriété, Administration, Banque etc
+                  Bureaux, Hotêlleries, Usines, Centres de santé, Logements, Groupes scolaire, Transports en commun, Copropriétés, Administrations, Banques etc
                 </Subtitle>
               </TextWrapper>
             </Column1>

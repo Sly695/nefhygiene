@@ -85,6 +85,7 @@ export const Subtitle = styled.p`
     line-height: 24px;
     font-family: 'Roboto Condensed', sans-serif;
     color: ${({ darkText }) => (darkText ? '#010606' : '#fff')};
+    text-align: left;
 
     @media screen and (max-width: 768px){
         font-size: 60%;

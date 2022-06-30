@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { MdKeyboardArrowRight, MdArrowForward } from 'react-icons/md';
-import img from '../../../src/image/WallpaperDesinfection.svg';
+import img from '../../../src/image/WallpaperDesinfection-min.svg';
 import img2 from '../../../src/image/LogoNEFmini.svg'
 import imgMobile from '../../../src/image/WallpaperMobileSize.png'
 import {Link as LinkR} from 'react-router-dom';

@@ -162,13 +162,7 @@ const PrestationSection = (
           }
         >
           <Meta
-            avatar={<img style={{
-              background: "#000",
-            }} />}
             title="PACK 3D"
-            style={{
-              color: "#02AFE7",
-            }}
           />
           <BarSeparation></BarSeparation>
           <CardPackList>
