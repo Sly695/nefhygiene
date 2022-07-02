@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { Button } from '../ButtonElement'
 import {
     HeroContainer,
@@ -11,15 +11,40 @@ import {
     Img,
     ImgBackground,
     Column1,
-    Column2
+    Column2,
+    IconWrap
 } from './heroSectionElements';
+
+import { animateScroll as scroll } from 'react-scroll';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faAnglesDown } from '@fortawesome/free-solid-svg-icons'
 
 const HeroSection = () => {
 
     const [hover, setHover] = useState(false);
+
     const onHover = () => {
         setHover(!hover)
     }
+
+    const [scrollNav, setScrollNav] = useState(false);
+
+    const changeNav = () => {
+        if (window.scrollY >= 80) {
+            setScrollNav(true)
+        } else {
+            setScrollNav(false)
+        }
+    }
+
+    useEffect(() => {
+        window.addEventListener('scroll', changeNav)
+    }, [])
+
+    const toggleHome = () => {
+        scroll.scrollToTop();
+    }
+
 
     return (
         <>
@@ -40,6 +65,9 @@ const HeroSection = () => {
                 </Column1>
                 <Column2>
                 </Column2>
+                <IconWrap scrollNav={scrollNav}>
+                    <FontAwesomeIcon style={{ color: "#FFF", width: "100%", height: "100%"}}icon={faAnglesDown} />
+                </IconWrap>
             </HeroContainer>
         </>
     )

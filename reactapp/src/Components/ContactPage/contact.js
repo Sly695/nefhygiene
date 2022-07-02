@@ -90,7 +90,7 @@ const ContactPage = () => {
                         <Form>
                             <FormH1>Contactez-nous</FormH1>
                             <FormSentence>
-                                Nous nous engageons à vous fournir un devis sur un délai de 24H. Devis gratuit sans engagement. intervention auvergnes Rhônes-Alpes en attendant le déploiement national.
+                                Nous nous engageons à vous fournir un devis sur un délai de 24H. Devis gratuit sans engagement. intervention uniquement en Auvergnes Rhônes-Alpes en attendant le déploiement national.
                             </FormSentence>
                             <FormWrapper>
                                 <InputWrapper>

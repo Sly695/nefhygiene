@@ -165,3 +165,18 @@ export const Column2 = styled.div`
     }
 `;
 
+export const IconWrap = styled.div`
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    bottom: 50px;
+    display: ${({ scrollNav }) => (scrollNav ? 'none' : 'block')};
+
+
+    &:hover {
+        transform: scale(1.17);
+        transition: all 0.2s ease-in-out;
+        cursor: pointer;
+    }
+`;
+

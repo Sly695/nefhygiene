@@ -185,7 +185,7 @@ const PrestationSection = (
       </CardWrapper>)
   } else {
     displayCard = (
-      <Carousel dotPosition="top" autoplay style={{ fontFamily: "Verdana", display: "flex", margin: "auto", width: "70%", height: "100%" }}>
+      <Carousel dotPosition="top" style={{ fontFamily: "Verdana", display: "flex", margin: "auto", width: "70%", height: "100%" }}>
         <Card
           style={{
             width: 300,

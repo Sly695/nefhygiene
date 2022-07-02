@@ -135,11 +135,18 @@ export const CardPackTitle = styled.p`
 
 export const CardPackList = styled.ul`
     list-style: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
     margin: 10px;
+    width: 100%;
+    padding: 10px;
+
 `;
 
 export const CardPackItem = styled.li`
-    
+    text-align: left;
 `
 
 export const BarSeparation = styled.div`
