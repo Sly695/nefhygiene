@@ -82,7 +82,6 @@ const ContactPage = () => {
     }
 
     return (
-        <>
             <Container>
                 <FormWrap>
                     <Icon onClick={() => toHomePage()} src={img} />
@@ -149,7 +148,6 @@ const ContactPage = () => {
                     </FormContent>
                 </FormWrap>
             </Container>
-        </>
     )
 }
 
