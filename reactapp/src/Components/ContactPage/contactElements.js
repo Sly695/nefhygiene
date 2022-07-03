@@ -3,7 +3,7 @@ import { Link as LinkR } from 'react-router-dom';
 import img from '../../image/LogoNEF.svg'
 
 export const Container = styled.div`
-    height: 100vh;
+    min-height: 692px;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -36,11 +36,10 @@ export const Icon = styled.img`
 `;
 
 export const FormContent = styled.div`
-    height: 100vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
 
     @media screen and (max-width: 480px){
         padding: 0px 10px;
@@ -86,7 +85,6 @@ export const FormLabel = styled.label`
 `;
 
 
-
 export const FormButton = styled.button`
     background: #02AFE7;
     border: none;
@@ -118,38 +116,35 @@ export const FormInput = styled.input`
     border: none;
     border-radius: 4px;
     margin: auto;
-    -webkit-padding-before: 8px;
     -webkit-padding-end: 0px;
-    -webkit-padding-after: 0px;
     -webkit-padding-start: 0px;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appareance: none;
+    -webkit-padding-before: 10px;
+    -webkit-padding-after: 0px;
 
     @media screen and (max-width: 768px){
-        padding: 0px 8px;
+        padding: 0px 0px;
     }
 
 
 `;
+
 
 export const FormSelect = styled.select`
     width: 100%;
     margin-bottom: 10px;
     border: none;
     border-radius: 4px;
-    margin: auto;
-    -webkit-padding-before: 8px;
-    -webkit-padding-end: 32px;
-    -webkit-padding-after: 0px;
+    -webkit-padding-end: 30px;
     -webkit-padding-start: 0px;
+    -webkit-padding-before: 10px;
+    -webkit-padding-after: 0px;
+    margin: auto;
     -webkit-appearance: none;
-    vertical-align: center;
-
+    -moz-appearance: none;
 
     @media screen and (max-width: 768px){
         width: 100%;
-        padding: 0px 8px;
+        padding: 0px 0px;
     }
 
 `;
