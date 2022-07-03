@@ -29,7 +29,9 @@ export const Icon = styled.img`
     cursor: pointer;
     background-repeat: no-repeat;
 
-    @media screen and (max-width: 480px){
+    @media screen and (max-width: 768px){
+        width: 70px;
+        height: 70px;    
     }
 `;
 
@@ -59,7 +61,7 @@ export const Form = styled.div`
 `;
 
 export const FormH1 = styled.h1`
-    margin-bottom: 10px;
+    margin-bottom: 7px;
     color: #fff;
     font-size: 20px;
     font-weight: 400;
@@ -70,19 +72,19 @@ export const FormLabel = styled.label`
     margin-bottom: 8px;
     font-size: 14px;
     color: #fff;
-    margin-top: 15px;
+    margin-top: 5px;
 `;
 
 export const FormInput = styled.input`
     padding: 6px 6px;
     width: 100%;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     border: none;
     border-radius: 4px;
     margin: auto;
 
     @media screen and (max-width: 480px){
-        padding: 1px 1px;
+        padding: 1px 0px;
     }
 
 
@@ -95,8 +97,8 @@ export const FormButton = styled.button`
     color: #fff;
     font-size: 16px;
     cursor: pointer;
-    padding: 8px 8px;
-    margin-top: 25px;
+    padding: 4px 4px;
+    margin-top: 20px;
     
     &:hover {
         transition: all 0.2s ease-in-out;
@@ -115,7 +117,7 @@ export const Text = styled.span`
 
 export const FormSelect = styled.select`
     width: 100%;
-    margin-bottom: 32px;
+    margin-bottom: 10px;
     border: none;
     border-radius: 4px;
     padding: 8px 4px;
@@ -130,10 +132,10 @@ export const FormSelect = styled.select`
 
 export const FormWrapper = styled.div`
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 
     @media screen and (max-width: 768px){
-        flex-direction: row;
+        flex-direction: column;
     }
     
     
@@ -142,7 +144,7 @@ export const FormWrapper = styled.div`
 export const InputWrapper = styled.div`
     display: flex;
     flex-direction: column;
-
+    
 
 `;
 
