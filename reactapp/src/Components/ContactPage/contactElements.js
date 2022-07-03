@@ -30,8 +30,8 @@ export const Icon = styled.img`
     background-repeat: no-repeat;
 
     @media screen and (max-width: 768px){
-        width: 70px;
-        height: 70px;    
+        width: 60px;
+        height: 60px;    
     }
 `;
 
@@ -49,7 +49,7 @@ export const FormContent = styled.div`
 export const Form = styled.div`
     background: #010101;
     max-width: 425px;
-    height: 90%;
+    height: auto;
     width: 100%;
     z-index: 1;
     display: grid;
@@ -78,6 +78,10 @@ export const FormLabel = styled.label`
     font-size: 14px;
     color: #fff;
     margin-top: 5px;
+
+    @media screen and (max-width: 768px){
+        font-size: 12px;
+    }
 `;
 
 export const FormInput = styled.input`
@@ -89,7 +93,7 @@ export const FormInput = styled.input`
     margin: auto;
 
     @media screen and (max-width: 768px){
-        padding: 1px 0px;
+        padding: 0px 0px;
     }
 
 
@@ -130,7 +134,7 @@ export const FormSelect = styled.select`
 
     @media screen and (max-width: 768px){
         width: 100%;
-        padding: 1px 0px;
+        padding: 0px 0px;
     }
 
 `;

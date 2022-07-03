@@ -25,6 +25,7 @@ export const ImgBackground = styled.img`
     width: 100vw;
     height: 100vh;
     z-index: 8;
+    background-size: cover;
 
     @media screen and (max-width: 768px){
         background: url(${imgMobile});
