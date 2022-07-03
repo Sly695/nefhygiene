@@ -42,25 +42,30 @@ export const FormContent = styled.div`
     justify-content: center;
 
     @media screen and (max-width: 480px){
-        padding: 10px;
+        padding: 0px 10px;
     }
 `;
 
 export const Form = styled.div`
     background: #010101;
     max-width: 425px;
-    height: auto;
+    height: 90%;
     width: 100%;
     z-index: 1;
     display: grid;
     margin: auto;
-    padding: 10px 32px;
+    padding: 0px 32px;
     border-radius: 4px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.9);
+
+    @media screen and (max-width: 480px){
+        padding: 0px 32px;
+    }
 
 `;
 
 export const FormH1 = styled.h1`
+    margin-top: 7px;
     margin-bottom: 7px;
     color: #fff;
     font-size: 20px;
@@ -83,7 +88,7 @@ export const FormInput = styled.input`
     border-radius: 4px;
     margin: auto;
 
-    @media screen and (max-width: 480px){
+    @media screen and (max-width: 768px){
         padding: 1px 0px;
     }
 
@@ -125,7 +130,7 @@ export const FormSelect = styled.select`
 
     @media screen and (max-width: 768px){
         width: 100%;
-        padding: 3px 0px;
+        padding: 1px 0px;
     }
 
 `;
