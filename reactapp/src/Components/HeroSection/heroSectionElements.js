@@ -22,8 +22,8 @@ export const ImgBackground = styled.img`
     position: absolute;
     z-index: 1;
     background: url(${img});
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     z-index: 8;
 
     @media screen and (max-width: 768px){

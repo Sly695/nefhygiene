@@ -28,7 +28,6 @@ export const Icon = styled.img`
     height: 100px;
     cursor: pointer;
     background-repeat: no-repeat;
-    margin: auto;
 
     @media screen and (max-width: 480px){
     }
@@ -99,6 +98,12 @@ export const FormButton = styled.button`
     padding: 8px 8px;
     margin-top: 25px;
     
+    &:hover {
+        transition: all 0.2s ease-in-out;
+        background: #fff;
+        color: #02AFE7;
+    }
+    
 `;
 
 export const Text = styled.span`
@@ -125,7 +130,7 @@ export const FormSelect = styled.select`
 
 export const FormWrapper = styled.div`
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 
     @media screen and (max-width: 768px){
         flex-direction: row;

@@ -56,7 +56,7 @@ const HeroSection = () => {
                         <HeroP>
                             METTEZ L’ACCENT SUR LA PROPRETÉ AVEC DES PRESTATIONS DE CHOIX ET DE QUALITÉ
                         </HeroP>
-                        <HeroH1>NEF HYGIÈNE<span style={{color:"#aeca53"}}>.</span></HeroH1>
+                        <HeroH1>NEF HYGIÈNE<span style={{color:"#FFF"}}>.</span></HeroH1>
                         <HeroBtnWrapper />
                         <NavBtn>
                             <NavBtnLink to="/contact">Contacter</NavBtnLink>
@@ -66,7 +66,7 @@ const HeroSection = () => {
                 <Column2>
                 </Column2>
                 <IconWrap scrollNav={scrollNav}>
-                    <FontAwesomeIcon style={{ color: "#FFF", width: "100%", height: "100%"}}icon={faAnglesDown} />
+                    <FontAwesomeIcon style={{ color: "#FFF", width: "100%", height: "100%"}} icon={faAnglesDown} />
                 </IconWrap>
             </HeroContainer>
         </>

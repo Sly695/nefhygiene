@@ -76,8 +76,7 @@ export const NavItem = styled.li`
     height: 80px;
     font-family: 'Roboto Condensed', sans-serif;
     margin: auto;
-    font-weight: 100;
-    
+    font-weight: 400;
 `;
 
 export const NavLinks = styled(LinkS)`
