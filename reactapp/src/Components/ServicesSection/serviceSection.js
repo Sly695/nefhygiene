@@ -56,18 +56,16 @@ const ServiceSection = (
                 <TopLine>Nos services</TopLine>
                 <Heading lightText={lightText}>Pourquoi les choisir ?</Heading>
                 <Subtitle darkText={darkText}>
-                  Au vu du contexte sanitaire actuel, vivre dans un espace sain et désinfecté relève d’un devoir.
+                  Comprendre les attentes, les besoins et être à l’entière écoute de notre clientèle fait de NEF
+                  HYGIENE une société proche de ses clients. Trouver des solutions adaptées ensemble est notre satisfaction première.
                 </Subtitle>
                 <Subtitle>
-                  L’hygiène de vos locaux est primordiale pour la pérennité de votre activité.
-                  Cela peut éviter dans un premier temps d’être un lieu de circulation de virus et bactéries.
-                  Vous pourrez éviter la fermeture de votre espace de travail lié à des personnes infectées et donc empêcher la perte d’une partie de votre chiffre d’affaires.
-                  Faites un calcul simple : à combien estimez-vous vos pertes annuelles liées aux jours de congés maladies de vos employés ?
-                  N’attendez plus et profitez de nos services! Nous comprenons vos attentes, vos besoins et nous nous efforcerons de trouver des solutions adaptées à vos exigences.
+                  NEF HYGIÈNE met à votre disposition son professionnalisme de haut niveau et sa polyvalence dans les différentes
+                  missions à effectuer, alors n'hésitez plus !
                 </Subtitle>
                 <Subtitle>
-                  NEF HYGIÈNE met à votre disposition son professionnalisme, sa polyvalence et son savoir faire pour les différentes missions à effectuer.
-                  Nous nous adressons aussi bien aux professionnels qu’aux particuliers , notre politique étant de permettre à chacun de bénéficier de prestations de services abordables.
+                  Que vous soyez professionnel ou particulier, notre
+                  politique est de vous permettre de bénéficier de prestations de services abordables !
                 </Subtitle>
               </TextWrapper>
             </Column1>

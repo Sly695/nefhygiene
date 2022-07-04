@@ -5,16 +5,22 @@ import image1 from "../../../src/image/hotel.jpeg";
 import image2 from "../../../src/image/usine.jpg";
 import image3 from "../../../src/image/centre_de_sante.jpeg";
 import image4 from "../../../src/image/logement.jpeg";
+import image5 from "../../../src/image/hotel.jpeg";
+import image6 from "../../../src/image/transportscommun.jpg";
+import image7 from '../../../src/image/ecole.jpeg'
 
-import { Carousel } from 'antd';
+
 import 'antd/dist/antd.css';
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faMartiniGlassCitrus } from '@fortawesome/free-solid-svg-icons'
 
 import {
   BtnWrap,
   Column1,
   Column2,
   Heading,
-  ImgWrap,
+  ItemWrap,
   InfoContainer,
   InfoRow,
   InfoWrapper,
@@ -22,6 +28,9 @@ import {
   TextWrapper,
   TopLine,
   Img,
+  Carousel,
+  ImgWrap,
+  TitleImage
 } from './presentationSectionElements';
 
 const Presentation = (
@@ -77,30 +86,77 @@ const Presentation = (
               <TextWrapper>
                 <TopLine>Qui sommes nous ?</TopLine>
                 <Heading lightText={lightText}>NEF HYGIENE</Heading>
-                <Subtitle darkText={darkText}>est une entreprise de nettoyage spécialisée dans la désinfection de locaux.
-                  Située en région lyonnaise, nous proposons des prestations sur mesure. Bénéficez de nos services adaptés à vos besoins.
+                <Subtitle darkText={darkText}>
+                  Entreprise spécialisée dans la désinfection de lieux en tout genre, NEF HYGIENE s’impose parmi
+                  les experts de qualité dans l’hygiène globale de locaux.
+                  Située en région lyonnaise et joignable 6 jours sur 7 de 8h à 20h, une palette de services adaptée
+                  à votre demande vous est proposée.
+                </Subtitle>
+                <Subtitle>
+                  Notre expert certifié certibiocide se fera un plaisir de vous accompagner au plus proche de vos
+                  besoins grâce à un suivi régulier, même après notre passage ! NEF HYGIENE intervient en AUVERGNE RHÔNES ALPES !
                 </Subtitle>
                 <Subtitle>
                   Nous agissons dans tous types de locaux:
                 </Subtitle>
-                <Subtitle>
-                  Bureaux, Hotêlleries, Usines, Centres de santé, Logements, Groupes scolaire, Transports en commun, Copropriétés, Administrations, Banques etc
-                </Subtitle>
               </TextWrapper>
             </Column1>
             <Column2>
-              <ImgWrap style={{
+
+              <Carousel style={{
                 width: "100%",
                 height: "100%"
               }}>
-                <Carousel dotPosition="top" autoplay
-                  style={{
-                    height: '90%',
-                    width: '90%',
-                  }}>
-                  {displayImages}
-                </Carousel>
-              </ImgWrap>
+                <ItemWrap id="party" class="item">
+                  <ImgWrap>
+                    {/* <FontAwesomeIcon icon={faMartiniGlassCitrus}/> */}
+                    <img src={image} style={{ width: "100%", height: "80%" }} />
+                  </ImgWrap>
+                  <TitleImage>Bureaux</TitleImage>
+                </ItemWrap>
+                <ItemWrap id="party" class="item">
+                  <ImgWrap>
+                    <img src={image2} style={{ width: "100%", height: "80%" }} />
+                  </ImgWrap>
+                  <TitleImage>Usines</TitleImage>
+                </ItemWrap >
+                <ItemWrap id="party" class="item">
+                  <ImgWrap>
+                    <img src={image3} style={{ width: "100%", height: "80%" }} />
+                  </ImgWrap>
+                  <TitleImage>Santé</TitleImage>
+                </ItemWrap>
+                <ItemWrap id="party" class="item">
+                  <ImgWrap>
+                    <img src={image4} style={{ width: "100%", height: "80%" }} />
+                  </ImgWrap>
+                  <TitleImage>Maisons</TitleImage>
+                </ItemWrap>
+                <ItemWrap id="party" class="item">
+                  <ImgWrap>
+                    <img src={image5} style={{ width: "100%", height: "80%" }} />
+                  </ImgWrap>
+                  <TitleImage>Hôtels</TitleImage>
+                </ItemWrap>
+                <ItemWrap id="party" class="item">
+                  <ImgWrap>
+                    <img src={image6} style={{ width: "100%", height: "80%" }} />
+                  </ImgWrap>
+                  <TitleImage>Transports</TitleImage>
+                </ItemWrap>
+                <ItemWrap id="party" class="item">
+                  <ImgWrap>
+                    <img src={image7} style={{ width: "100%", height: "80%" }} />
+                  </ImgWrap>
+                  <TitleImage>Écoles</TitleImage>
+                </ItemWrap>
+                <ItemWrap id="party" class="item">
+                  <ImgWrap>
+                    <img style={{ background: "#aeca53", width: "100%", height: "80%" }} />
+                  </ImgWrap>
+                  <TitleImage>Autre</TitleImage>
+                </ItemWrap>
+              </Carousel>
             </Column2>
           </InfoRow>
         </InfoWrapper>
