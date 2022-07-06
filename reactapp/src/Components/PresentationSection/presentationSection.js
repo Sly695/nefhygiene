@@ -30,7 +30,7 @@ import {
   Img,
   Carousel,
   ImgWrap,
-  TitleImage
+  TitleImage,
 } from './presentationSectionElements';
 
 const Presentation = (
@@ -89,15 +89,19 @@ const Presentation = (
                 <Subtitle darkText={darkText}>
                   Entreprise spécialisée dans la désinfection de lieux en tout genre, NEF HYGIENE s’impose parmi
                   les experts de qualité dans l’hygiène globale de locaux.
+                </Subtitle>
+                <Subtitle>
                   Située en région lyonnaise et joignable 6 jours sur 7 de 8h à 20h, une palette de services adaptée
                   à votre demande vous est proposée.
                 </Subtitle>
                 <Subtitle>
                   Notre expert certifié certibiocide se fera un plaisir de vous accompagner au plus proche de vos
-                  besoins grâce à un suivi régulier, même après notre passage ! NEF HYGIENE intervient en AUVERGNE RHÔNES ALPES !
+                  besoins grâce à un suivi régulier, même après notre passage ! 
                 </Subtitle>
                 <Subtitle>
-                  Nous agissons dans tous types de locaux:
+                  NEF HYGIENE intervient en Auvergnes Rhône-Alpes !
+                </Subtitle>
+                <Subtitle>
                 </Subtitle>
               </TextWrapper>
             </Column1>
@@ -105,7 +109,7 @@ const Presentation = (
 
               <Carousel style={{
                 width: "100%",
-                height: "100%"
+                height: "100%",
               }}>
                 <ItemWrap id="party" class="item">
                   <ImgWrap>
@@ -149,12 +153,6 @@ const Presentation = (
                     <img src={image7} style={{ width: "100%", height: "80%" }} />
                   </ImgWrap>
                   <TitleImage>Écoles</TitleImage>
-                </ItemWrap>
-                <ItemWrap id="party" class="item">
-                  <ImgWrap>
-                    <img style={{ background: "#aeca53", width: "100%", height: "80%" }} />
-                  </ImgWrap>
-                  <TitleImage>Autre</TitleImage>
                 </ItemWrap>
               </Carousel>
             </Column2>

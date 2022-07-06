@@ -74,9 +74,9 @@ export const NavMenu = styled.ul`
 
 export const NavItem = styled.li`
     height: 80px;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
     margin: auto;
-    font-weight: 400;
+    font-weight: 600;
 `;
 
 export const NavLinks = styled(LinkS)`

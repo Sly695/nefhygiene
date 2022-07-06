@@ -26,6 +26,11 @@ export const InfoWrapper = styled.div`
     justify-content: center;
     display: flex;
 
+    @media screen and (max-width: 768px) {
+        padding: 0px;
+    }
+
+
     
 `;
 
@@ -52,6 +57,10 @@ export const Column2 = styled.div`
     padding: 0 15px; 
     grid-area: col2;
 
+    @media screen and (max-width: 768px) {
+        width: 100%;
+    }
+
 `;
 
 export const TextWrapper = styled.div`
@@ -66,7 +75,7 @@ export const TopLine = styled.p`
     letter-spacing: 1.4px;
     text-transform: uppercase;
     margin-bottom: 16px;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
 
     @media screen and (max-width: 768px) {
         font-size: 15px;
@@ -81,8 +90,8 @@ export const Heading = styled.h1`
     line-height: 1.1;
     font-weight: 600;
     color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#010606')};
-    font-family: 'Roboto Condensed', sans-serif;
-
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    
     @media screen and (max-width: 480px) {
         font-size: 20px;
     };
@@ -93,8 +102,8 @@ export const Subtitle = styled.p`
     margin-bottom: 15px;
     font-size: 18px;
     line-height: 24px;
-    font-family: 'Roboto Condensed', sans-serif;
-
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+     
     color: ${({ darkText }) => (darkText ? '#010606' : '#000')};
 
     @media screen and (max-width: 768px) {

@@ -21,6 +21,10 @@ export const InfoWrapper = styled.div`
     padding: 0 24px;
     justify-content: center;
     display: flex;
+
+    @media screen and (max-width: 768px) {
+        padding: 0;
+    }
 `;
 
 export const InfoRow = styled.div`
@@ -60,8 +64,7 @@ export const TopLine = styled.p`
     letter-spacing: 1.4px;
     text-transform: uppercase;
     margin-bottom: 16px;
-    font-family: 'Roboto Condensed', sans-serif;
-
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
     
 `;
 
@@ -70,7 +73,7 @@ export const Heading = styled.h1`
     font-size: 32px;
     line-height: 1.1;
     font-weight: 600;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
     color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#fff')};
 
     @media screen and (max-width: 480px) {
@@ -83,7 +86,7 @@ export const Subtitle = styled.p`
     max-width: 440px;
     font-size: 18px;
     line-height: 24px;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
     color: ${({ darkText }) => (darkText ? '#010606' : '#fff')};
     text-align: left;
 

@@ -76,13 +76,7 @@ const PrestationSection = (
               Désinfection des surfaces de contact
             </CardPackItem>
             <CardPackItem>
-              Nettoyage des sols
-            </CardPackItem>
-            <CardPackItem>
-              Nettoyage du bas des murs
-            </CardPackItem>
-            <CardPackItem>
-              Dépoussiérage du mobilier
+              Nettoyage des sols, des murs, des plinthes et du mobilier par dépoussiérage
             </CardPackItem>
             <CardPackItem>
               Vidage des corbeilles et poubelles
@@ -141,9 +135,9 @@ const PrestationSection = (
               PACK CLEAN +
             </CardPackItem>
             <CardPackItem>
-              Désinfection de locaux avec produit virucide qui détruit 99,99%
-              des bactéries et demeure le plus efficace pour l'élimination
-              de virus
+              Désinfection par nébulisation/ pulvérisation avec produit virucide NF EN 14476 qui détruit 99,9%
+              des bactéries et demeure parmi l’une des techniques des plus radicale pour l’élimination de virus dès
+              le premier passage.
             </CardPackItem>
           </CardPackList>
           <Details onClick={() => setVisibleDesinfection(true)}>En savoir plus</Details>
@@ -208,13 +202,7 @@ const PrestationSection = (
               Désinfection des surfaces de contact
             </CardPackItem>
             <CardPackItem>
-              Nettoyage des sols
-            </CardPackItem>
-            <CardPackItem>
-              Nettoyage du bas des murs
-            </CardPackItem>
-            <CardPackItem>
-              Dépoussiérage du mobilier
+              Nettoyage des sols, des murs, des plinthes et du mobilier par dépoussiérage
             </CardPackItem>
             <CardPackItem>
               Vidage des corbeilles et poubelles
@@ -272,9 +260,9 @@ const PrestationSection = (
               PACK CLEAN +
             </CardPackItem>
             <CardPackItem>
-              Désinfection de locaux avec produit virucide qui détruit 99,99%
-              des bactéries et demeure le plus efficace pour l'élimination
-              de virus
+              Désinfection par nébulisation/pulvérisation avec produit virucide NF EN 14476 qui détruit 99,9%
+              des bactéries et demeure parmi l’une des techniques des plus radicale pour l’élimination de virus dès
+              le premier passage.
             </CardPackItem>
           </CardPackList>
           <Details onClick={() => setVisibleDesinfection(true)}>En savoir plus</Details>
@@ -348,10 +336,9 @@ const PrestationSection = (
           onCancel={() => setVisiblePackClean(false)}
           width={1000}
         >
-          <p>Nettoyage de surface : désinfection des surfaces de contact (ordinateurs, souris, clavier, interrupteur, rampe, poignée).</p>
           <p>
-            Cette prestation comprend le nettoyage des sols , du
-            bas des murs ainsi que du mobilier par dépoussiérage puis vidage des corbeilles et poubelles.
+            Utilisation de produits professionnels et adaptés à la surface traitée.
+
           </p>
         </Modal>
         <Modal
@@ -376,43 +363,39 @@ const PrestationSection = (
           width={1000}
         >
           <p>
-            Nous reprenons les 2 premiers pack en rajoutant la désinfection de locaux .Nous Désinfectons par
-            nébulisation/ pulvérisation avec produit virucide NF EN 14476 qui détruit 99,99% des bactéries et
-            demeure le plus efficace pour l’élimination de virus. Nous pouvons aussi vous fournir les produits
-            indispensables de type masques, lingettes et gel hydroalcoolique.Notre société proposera des tarifs
-            dégressifs en fonction de la fréquence de passage( prestation unique ou abonnement mensuel/
-            trimestriel/annuel).
-          </p>
-          <p>
-            Nous vous remettrons un certificat de désinfection de vos locaux qui prouvera que vous avez fait
-            appel à NEF HYGIÈNE qui vous garantit une prestation qualitative et conforme à ses engagements.
-            Pourquoi opter pour ce PACK ?
-          </p>
-          <p>
             1. Regroupe toutes les prestations visant à réduire les contaminations microbiennes en
-            éliminant efficacement touts les micro organismes présents.
+            éliminant efficacement tous les microorganismes présents .
           </p>
           <p>
             2. Maximise les chances de travailler dans un environnement sain avec l’amélioration de la
             qualité de l’air intérieur
           </p>
           <p>
-            3. A titre préventif , désinfecter ses locaux prouve votre intérêt concernant la santé de vos
-            employés, collaborateurs et clients . L’article L.4121-1 du code du travail vous incite à veiller
+            3. A titre préventif, désinfecter ses locaux prouve votre intérêt concernant la santé de vos
+            employés, collaborateurs et clients. L’article L.4121-1 du code du travail vous incite à veiller
             sur la santé physique et mentale de vos employés.
           </p>
-          4. L’agrément CERTIBIOCIDE délivré par le ministère de l’écologie et du développement durable
-          vous garantira une prestation de qualité.Nous respectons un protocole rigoureux fixé par le
-          gouvernement . L’utilisation des produits requiert une durée d’application suivi d’un délai de
-          ré-entrée.
           <p>
-            NEF HYGIÈNE vous prêtera main forte dans le nettoyage et la désinfection de vos locaux .
-            Ce PACK optimisera vos chances de stopper la propagation des virus et bactéries ou du moins
-            de prévenir les risques d’infections. Nous ne savons pas de quoi est fait demain c’est
-            pourquoi nous prenons toutes ces menaces avec le plus grand des sérieux .
+            4. L’agrément CERTIBIOCIDE délivré par le ministère de l’écologie et du développement durable
+            vous garantira une prestation de qualité. Nous respectons un protocole rigoureux fixé par le
+            gouvernement. L’utilisation des produits requiert une durée d’application suivi d’un délai de
+            réentrée.
           </p>
           <p>
-            NEF HYGIÈNE offre bien plus qu’un nettoyage classique, il en va de votre santé et de votre portefeuille !
+            Ce PACK complet optimise le ralentissement de la propagation des virus et bactéries et
+            permet ainsi de prévenir les risques de transmission de maladies.
+          </p>
+          <p>
+            POSSIBILITÉ D’EFFECTUER LA PRESTATION SEULE.
+          </p>
+          <p>
+            Notre société proposera des
+            tarifs dégressifs en fonction de la fréquence de passage( prestation unique ou abonnement mensuel/
+            trimestriel/annuel).
+          </p>
+          <p>
+            Nous vous remettrons un certificat de désinfection de vos locaux qui prouvera que vous avez fait
+            appel à NEF HYGIÈNE qui vous garantit une prestation qualitative et conforme à ses engagements.
           </p>
         </Modal>
         <Modal
@@ -426,11 +409,11 @@ const PrestationSection = (
           <p>
             La notion de 3D englobent trois grands axes :
           </p>
-            <ul>
-              <li>Désinfection</li>
-              <li>Dératisation</li>
-              <li>Désinsectisation</li>
-            </ul>
+          <ul>
+            <li>Désinfection</li>
+            <li>Dératisation</li>
+            <li>Désinsectisation</li>
+          </ul>
           <p>
             En plus d’être expert en désinfection , notre entreprise est spécialisé contre les rongeurs et insectes.
             Nous agissons par principe de lutte raisonnée. De ce fait nous utiliserons des méthodes en respectant l’écologie et l’économie. Ces techniques se voudront non dangereuse pour l’Homme et l’environnement, avec à long terme , la diminution de l’application de ces produits en ne les utilisant

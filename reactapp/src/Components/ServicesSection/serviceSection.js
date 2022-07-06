@@ -57,7 +57,10 @@ const ServiceSection = (
                 <Heading lightText={lightText}>Pourquoi les choisir ?</Heading>
                 <Subtitle darkText={darkText}>
                   Comprendre les attentes, les besoins et être à l’entière écoute de notre clientèle fait de NEF
-                  HYGIENE une société proche de ses clients. Trouver des solutions adaptées ensemble est notre satisfaction première.
+                  HYGIENE une société proche de ses clients. 
+                </Subtitle>
+                <Subtitle> 
+                  Trouver des solutions adaptées ensemble est notre satisfaction première.
                 </Subtitle>
                 <Subtitle>
                   NEF HYGIÈNE met à votre disposition son professionnalisme de haut niveau et sa polyvalence dans les différentes

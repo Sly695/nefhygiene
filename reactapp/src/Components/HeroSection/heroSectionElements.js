@@ -48,7 +48,7 @@ export const HeroH1 = styled.h1`
     font-size: 48px;
     width: 70%;
     text-align: left;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
     font-style: light;
     font-weight: 600;
     margin: auto;
@@ -72,7 +72,8 @@ export const HeroP = styled.p`
     width: 70%;
     font-size: 24px;
     text-align: left;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-style: normal;
     margin: auto;
 
     @media screen and (max-width: 768px){
