@@ -317,7 +317,7 @@ const PrestationSection = (
         <InfoWrapper>
           <TextWrapper>
             <TopLine>
-              Nos services
+              Nos prestations
             </TopLine>
             <Heading>
               Nous vous proposons 4 packs pour résoudre vos problèmes en tout genre
