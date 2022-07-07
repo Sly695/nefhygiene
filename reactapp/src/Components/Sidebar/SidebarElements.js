@@ -45,6 +45,7 @@ export const SidebarMenu = styled.ul`
     grid-template-columns: 1fr;
     grid-template-rows: repeat(6, 80px);
     text-align: center;
+
     
 
     @media screen and (max-width: 480px) {
@@ -63,6 +64,8 @@ export const SidebarLink = styled(LinkS)`
     text-decoration: none;
     color: #02AFE7;
     cursor: pointer;
+    font-family: 'Gantari', sans-serif;
+    font-weight: 600;
     
     &:hover {
         color: #FFF;  

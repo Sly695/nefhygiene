@@ -137,6 +137,7 @@ export const FormInput = styled.input`
 
     @media screen and (max-width: 768px){
         padding: 0px 0px;
+        height: 20px;
     }
 
 
@@ -163,6 +164,7 @@ export const FormSelect = styled.select`
         width: 100%;
         height: 30px;
         -webkit-padding-start: 7px;
+        height: 20px;
     }
 
 `;
