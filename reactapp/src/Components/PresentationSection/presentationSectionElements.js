@@ -75,7 +75,7 @@ export const TopLine = styled.p`
     letter-spacing: 1.4px;
     text-transform: uppercase;
     margin-bottom: 16px;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-family: 'Gantari', sans-serif;
 
     @media screen and (max-width: 768px) {
         font-size: 15px;
@@ -90,7 +90,7 @@ export const Heading = styled.h1`
     line-height: 1.1;
     font-weight: 600;
     color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#010606')};
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-family: 'Gantari', sans-serif;
     
     @media screen and (max-width: 480px) {
         font-size: 20px;
@@ -102,7 +102,7 @@ export const Subtitle = styled.p`
     margin-bottom: 15px;
     font-size: 18px;
     line-height: 24px;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-family: 'Gantari', sans-serif;
      
     color: ${({ darkText }) => (darkText ? '#010606' : '#000')};
 
@@ -168,6 +168,8 @@ export const TitleImage = styled.h1`
     font-size: 2.5em;
     z-index: 11;
     top: 85px;
+    font-weight: 600;
+    font-family: 'Gantari', sans-serif;
 
 
     

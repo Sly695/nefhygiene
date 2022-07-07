@@ -74,7 +74,7 @@ export const NavMenu = styled.ul`
 
 export const NavItem = styled.li`
     height: 80px;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-family: 'Gantari', sans-serif;
     margin: auto;
     font-weight: 600;
 `;
@@ -102,7 +102,7 @@ export const NavLinks = styled(LinkS)`
 export const NavBtn = styled.nav`
     display: flex;
     align-items: center;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Gantari', sans-serif;
     color: #000;
     
     @media screen and (max-width: 768px) {

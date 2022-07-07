@@ -15,8 +15,8 @@ export const Button = styled(Link)`
     justify-content: center;
     align-items: center;
     transition: all 0.2s ease-in-out;
-    font-family: verdana;
-    
+    font-family: 'Gantari', sans-serif;
+            
     &:hover {
         transition: all 0.2s ease-in-out;
         background: ${({primary}) => 

@@ -64,8 +64,7 @@ export const TopLine = styled.p`
     letter-spacing: 1.4px;
     text-transform: uppercase;
     margin-bottom: 16px;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-    
+    font-family: 'Gantari', sans-serif;    
 `;
 
 export const Heading = styled.h1`
@@ -73,7 +72,7 @@ export const Heading = styled.h1`
     font-size: 32px;
     line-height: 1.1;
     font-weight: 600;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-family: 'Gantari', sans-serif;    
     color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#fff')};
 
     @media screen and (max-width: 480px) {
@@ -86,7 +85,7 @@ export const Subtitle = styled.p`
     max-width: 440px;
     font-size: 18px;
     line-height: 24px;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-family: 'Gantari', sans-serif;
     color: ${({ darkText }) => (darkText ? '#010606' : '#fff')};
     text-align: left;
 

@@ -55,7 +55,7 @@ export const TopLine = styled.p`
     text-transform: uppercase;
     margin-bottom: 16px;
     font-size: 100%;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-family: 'Gantari', sans-serif;
 
     @media screen and (max-width: 768px){
         font-size: 100%;
@@ -69,7 +69,7 @@ export const Heading = styled.h1`
     font-size: 32px;
     line-height: 1.1;
     font-weight: 600;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-family: 'Gantari', sans-serif;
     color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#010606')};
 
     @media screen and (max-width: 768px) {
@@ -83,8 +83,8 @@ export const Subtitle = styled.p`
     font-size: 100%;
     line-height: 24px;
     color: ${({darkText}) => (darkText ? '#010606' : '#000')};
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-    
+    font-family: 'Gantari', sans-serif;
+
     @media screen and (max-width: 768px){
         font-size: 100%;
     }
@@ -142,6 +142,7 @@ export const CardPackList = styled.ul`
     margin: 20px;
     width: 100%;
     padding: 10px;
+    font-family: 'Gantari', sans-serif;
 
 `;
 
@@ -162,6 +163,7 @@ export const Details = styled.p`
     position: absolute;
     right: 20px;
     bottom 0px;
+    font-family: 'Gantari', sans-serif;
 
     &:hover{
         color: #aeca53;

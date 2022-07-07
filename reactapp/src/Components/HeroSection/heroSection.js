@@ -53,7 +53,7 @@ const HeroSection = () => {
 
                 <Column1>
                     <HeroContent>
-                        <HeroP>
+                        <HeroP className='font-link'>
                             METTEZ L’ACCENT SUR LA PROPRETÉ AVEC DES PRESTATIONS DE CHOIX ET DE QUALITÉ
                         </HeroP>
                         <HeroH1>NEF HYGIÈNE<span style={{color:"#FFF"}}>.</span></HeroH1>

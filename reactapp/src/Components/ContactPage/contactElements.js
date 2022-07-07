@@ -71,6 +71,8 @@ export const FormH1 = styled.h1`
     font-size: 20px;
     font-weight: 400;
     text-align: center;
+    font-family: 'Gantari', sans-serif;
+    font-weight: 600;
 `;
 
 export const FormLabel = styled.label`
@@ -78,6 +80,8 @@ export const FormLabel = styled.label`
     font-size: 14px;
     color: #fff;
     margin-top: 5px;
+    font-family: 'Gantari', sans-serif;
+    font-weight: 600;
 
     @media screen and (max-width: 768px){
         font-size: 12px;
@@ -94,6 +98,8 @@ export const FormButton = styled.button`
     cursor: pointer;
     padding: 4px 4px;
     margin-top: 20px;
+    font-family: 'Gantari', sans-serif;
+    font-weight: 600;
     
     &:hover {
         transition: all 0.2s ease-in-out;
@@ -108,18 +114,26 @@ export const Text = styled.span`
     margin-top: 24px;
     color: #fff;
     font-size: 14px;
+    font-family: 'Gantari', sans-serif;
 `;
 
 export const FormInput = styled.input`
     width: 100%;
+    height: 30px;
     margin-bottom: 10px;
     border: none;
     border-radius: 4px;
     margin: auto;
     -webkit-padding-end: 0px;
     -webkit-padding-start: 0px;
-    -webkit-padding-before: 10px;
+    -webkit-padding-before: 0px;
     -webkit-padding-after: 0px;
+    font-family: 'Gantari', sans-serif;
+    font-weight: 600;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+
+
 
     @media screen and (max-width: 768px){
         padding: 0px 0px;
@@ -131,20 +145,24 @@ export const FormInput = styled.input`
 
 export const FormSelect = styled.select`
     width: 100%;
+    height: 30px;
     margin-bottom: 10px;
     border: none;
     border-radius: 4px;
-    -webkit-padding-end: 30px;
-    -webkit-padding-start: 0px;
-    -webkit-padding-before: 10px;
-    -webkit-padding-after: 0px;
     margin: auto;
+    -webkit-padding-end: 0px;
+    -webkit-padding-start: 16px;
+    -webkit-padding-before: 0px;
+    -webkit-padding-after: 0px;
+    font-family: 'Gantari', sans-serif;
+    font-weight: 600;
     -webkit-appearance: none;
     -moz-appearance: none;
 
     @media screen and (max-width: 768px){
         width: 100%;
-        padding: 0px 0px;
+        height: 30px;
+        -webkit-padding-start: 7px;
     }
 
 `;

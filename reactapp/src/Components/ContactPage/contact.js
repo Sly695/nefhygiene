@@ -104,7 +104,7 @@ const ContactPage = () => {
                             <FormWrapper>
                                 <InputWrapper>
                                     <FormLabel htmlFor='for'>Superficie à traiter</FormLabel>
-                                    <FormInput onChange={(arg) => onChangeSuperficie(arg.target.value)} placeholder="m²" type="superficie" required />
+                                    <FormInput onChange={(arg) => onChangeSuperficie(arg.target.value)} placeholder="  m²" type="superficie" required />
                                 </InputWrapper>
                                 <InputWrapper>
                                     <FormLabel type="propriete" htmlFor='for'>Type de propriété</FormLabel>
@@ -140,7 +140,7 @@ const ContactPage = () => {
                                     <option value="3D">Pack 3D</option>
                                 </FormSelect>
                             </InputWrapper>
-                            <FormLabel htmlFor='for'>Message ou joignez nous au 06 99 56 23 75</FormLabel>
+                            <FormLabel htmlFor='for'>Message ou joignez nous au <a style={{ color: "#02AFE7"}} href="06 99 56 23 75">06 99 56 23 75</a></FormLabel>
                             <FormInput onChange={(arg) => onChangeMessage(arg.target.value)} type="text" required />
                             <FormButton onClick={() => submit()}>Envoyer</FormButton>
                             <p style={{ marginTop: "15px", color: "#02AFE7", textAlign: "center" }}>{response}</p>

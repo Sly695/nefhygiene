@@ -43,7 +43,7 @@ const Footer = () => {
                         <SocialLogo to='/' onClick={toggleHome}>
                             NEF HYGIÈNE
                         </SocialLogo>
-                        <WebsiteRights>NEF HYGIENE {new Date().getFullYear()} All right reserved</WebsiteRights>
+                        <WebsiteRights>NEF HYGIENE {new Date().getFullYear()} @ All right reserved</WebsiteRights>
                     </SocialMediaWrap>
                 </SocialMedia>
             </FooterWrap>
