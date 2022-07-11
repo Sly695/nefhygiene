@@ -87,7 +87,7 @@ const Presentation = (
                 <TopLine>Qui sommes nous ?</TopLine>
                 <Heading lightText={lightText}>NEF HYGIENE</Heading>
                 <Subtitle darkText={darkText}>
-                  Entreprise spécialisée dans la désinfection de lieux en tout genre, NEF HYGIENE s’impose parmi
+                  Entreprise spécialisée dans la désinfection de lieux en tout genre, <span style={{ fontWeight: "900"}}>NEF HYGIÈNE</span> s’impose parmi
                   les experts de qualité dans l’hygiène globale de locaux.
                 </Subtitle>
                 <Subtitle>
@@ -95,13 +95,14 @@ const Presentation = (
                   à votre demande vous est proposée.
                 </Subtitle>
                 <Subtitle>
-                  Notre expert certifié certibiocide se fera un plaisir de vous accompagner au plus proche de vos
+                  Notre expert certifié <span style={{ fontWeight: "900"}}>certibiocide</span> se fera un plaisir de vous accompagner au plus proche de vos
                   besoins grâce à un suivi régulier, même après notre passage ! 
                 </Subtitle>
                 <Subtitle>
-                  NEF HYGIENE intervient en Auvergnes Rhône-Alpes !
+                <span style={{ fontWeight: "900"}}>NEF HYGIÈNE</span> intervient en<span style={{ fontWeight: "900"}}> Auvergne-Rhône-Alpes !</span>
                 </Subtitle>
                 <Subtitle>
+                  Exemple de lieux de services :
                 </Subtitle>
               </TextWrapper>
             </Column1>

@@ -170,3 +170,13 @@ export const Details = styled.p`
         cursor: pointer;
     }
 `;
+
+export const SentencePrestationWrap = styled.div`
+    text-align: center; 
+    padding: 20px;
+`;
+
+export const SentencePrestation = styled.p`
+    color: #000;
+    font-family: 'Gantari', sans-serif;
+`;

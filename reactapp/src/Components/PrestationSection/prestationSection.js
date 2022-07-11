@@ -13,6 +13,8 @@ import {
   CardPackItem,
   BarSeparation,
   Details,
+  SentencePrestationWrap, 
+  SentencePrestation
 } from './prestationSectionElements';
 
 import { Card, Carousel, Modal } from 'antd';
@@ -159,10 +161,8 @@ const PrestationSection = (
             title="PACK 3D"
           />
           <BarSeparation></BarSeparation>
+          <p style={{paddingTop: "10px", paddingLeft: "10px"}}>La notion de 3D englobent trois grands axes :</p>
           <CardPackList>
-            <CardPackItem>
-              La notion de 3D englobent trois grands axes :
-            </CardPackItem>
             <CardPackItem>
               Désinfection
             </CardPackItem>
@@ -288,10 +288,8 @@ const PrestationSection = (
             }}
           />
           <BarSeparation></BarSeparation>
+          <p style={{paddingTop: "10px", paddingLeft: "10px"}}>La notion de 3D englobent trois grands axes :  </p>
           <CardPackList>
-            <CardPackItem>
-              La notion de 3D englobent trois grands axes :
-            </CardPackItem>
             <CardPackItem>
               Désinfection
             </CardPackItem>
@@ -322,9 +320,6 @@ const PrestationSection = (
             <Heading>
               Nous vous proposons 4 packs pour résoudre vos problèmes en tout genre
             </Heading>
-            <Subtitle>
-              Afin de satisfaire vos besoins et exigences.
-            </Subtitle>
           </TextWrapper>
         </InfoWrapper>
         {displayCard}
@@ -407,21 +402,24 @@ const PrestationSection = (
           width={1000}
         >
           <p>
-            La notion de 3D englobent trois grands axes :
-          </p>
-          <ul>
-            <li>Désinfection</li>
-            <li>Dératisation</li>
-            <li>Désinsectisation</li>
-          </ul>
-          <p>
             En plus d’être expert en désinfection , notre entreprise est spécialisé contre les rongeurs et insectes.
-            Nous agissons par principe de lutte raisonnée. De ce fait nous utiliserons des méthodes en respectant l’écologie et l’économie. Ces techniques se voudront non dangereuse pour l’Homme et l’environnement, avec à long terme , la diminution de l’application de ces produits en ne les utilisant
+            Nous agissons par principe de lutte raisonnée. De ce fait nous utiliserons des méthodes en respectant l’écologie et l’économie. 
+          </p>
+          <p>  
+            Ces techniques se voudront non dangereuse pour l’Homme et l’environnement, avec à long terme , la diminution de l’application de ces produits en ne les utilisant
             qu’en dernier lieu et à minima.
+          </p>
+          <p>
             NEF HYGIÈNE interviendra dans les plus bref délais de façon efficace et ponctuelle.  tout d’abord nous effectuerons un diagnostic afin d’avoir une vision globale du site puis nous déterminerons à quelle(s) espèce(s) nous avons à faire .
+          </p>
+          <p>
             Ensuite nous mettrons en place un plan précis afin de pouvoir agir sur du long terme contre ces nuisibles.
           </p>
         </Modal>
+        <SentencePrestationWrap>
+          <SentencePrestation>Il est de notre devoir commun d'entretenir un lieu <span style={{ fontWeight: "900"}}>PROPRE ET DÉSINFECTER.</span></SentencePrestation>
+          <SentencePrestation><span style={{ fontWeight: "900"}}>NEF HYGIÈNE</span> offre bien plus qu'un nettoyage classique, demander <span style={{ fontWeight: "900"}}>NEF HYGIÈNE</span> c'est aussi une qualité supérieure à des prix avantageux.</SentencePrestation>
+        </SentencePrestationWrap>
       </InfoContainer>
     </>
   )

@@ -54,17 +54,17 @@ const ServiceSection = (
             <Column1>
               <TextWrapper>
                 <TopLine>Nos services</TopLine>
-                <Heading lightText={lightText}>Pourquoi les choisir ?</Heading>
+                <Heading lightText={lightText}>Pourquoi faire appels à services ?</Heading>
                 <Subtitle darkText={darkText}>
-                  Comprendre les attentes, les besoins et être à l’entière écoute de notre clientèle fait de NEF
-                  HYGIENE une société proche de ses clients. 
+                  Comprendre les attentes, les besoins et être à l’entière écoute de notre clientèle fait de  <span style={{ fontWeight: "900"}}>NEF HYGIÈNE </span>
+                  une société proche de ses clients. 
                 </Subtitle>
                 <Subtitle> 
-                  Trouver des solutions adaptées ensemble est notre satisfaction première.
+                  <span style={{ fontWeight: "900"}}>Trouver</span> des solutions adaptées <span style={{ fontWeight: "900"}}>ensemble</span> est notre satisfaction première.
                 </Subtitle>
                 <Subtitle>
-                  NEF HYGIÈNE met à votre disposition son professionnalisme de haut niveau et sa polyvalence dans les différentes
-                  missions à effectuer, alors n'hésitez plus !
+                  <span style={{ fontWeight: "900"}}>NEF HYGIÈNE</span> met à votre disposition son professionnalisme de haut niveau et sa polyvalence dans les différentes
+                  missions à effectuer, <span style={{ fontWeight: "900"}}>alors n'hésitez plus !</span>
                 </Subtitle>
                 <Subtitle>
                   Que vous soyez professionnel ou particulier, notre

@@ -89,7 +89,7 @@ const ContactPage = () => {
                         <Form>
                             <FormH1>Contactez-nous</FormH1>
                             <FormSentence>
-                                Nous nous engageons à vous fournir un devis sur un délai de 24H. Devis gratuit sans engagement. intervention uniquement en Auvergnes Rhônes-Alpes en attendant le déploiement national.
+                                Nous nous engageons à vous fournir un devis sur un délai de 24H. Devis gratuit sans engagement. Intervention uniquement en Auvergnes Rhônes-Alpes en attendant le déploiement national.
                             </FormSentence>
                             <FormWrapper>
                                 <InputWrapper>
@@ -140,7 +140,7 @@ const ContactPage = () => {
                                     <option value="3D">Pack 3D</option>
                                 </FormSelect>
                             </InputWrapper>
-                            <FormLabel htmlFor='for'>Message ou joignez nous au <a style={{ color: "#02AFE7"}} href="06 99 56 23 75">06 99 56 23 75</a></FormLabel>
+                            <FormLabel htmlFor='for'>Message ou joignez nous au <a style={{ color: "#02AFE7"}} href="tel: 06 99 56 23 75">06 99 56 23 75</a></FormLabel>
                             <FormInput onChange={(arg) => onChangeMessage(arg.target.value)} type="text" required />
                             <FormButton onClick={() => submit()}>Envoyer</FormButton>
                             <p style={{ marginTop: "15px", color: "#02AFE7", textAlign: "center" }}>{response}</p>
