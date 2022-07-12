@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 import {Link} from 'react-router-dom';
-import img from '../../../src/image/QSN_img.svg'
 
 export const FooterContainer = styled.footer`
     background: rgb(12,51,99);

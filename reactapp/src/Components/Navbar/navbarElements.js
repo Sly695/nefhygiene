@@ -31,17 +31,11 @@ export const NavbarContainer = styled.div`
 
 
 export const NavLogo = styled.img`
-    color: #000;
     height: 60px;
-    justify-self: flex-start;
     cursor: pointer;
-    font-size: 1.5rem;
-    display: flex;
-    align-items: center;
     margin-left: 24px;
-    text-decoration: none;
     margin-top: 10px;
-    
+    sizes=100vw;
 `;
 
 export const MobileIcon = styled.div`

@@ -14,15 +14,16 @@ import {
   BarSeparation,
   Details,
   SentencePrestationWrap, 
-  SentencePrestation
+  SentencePrestation, 
+  SentenceModal
 } from './prestationSectionElements';
 
 import { Card, Carousel, Modal } from 'antd';
 
-import img1 from '../../../src/image/moquette.jpeg'
-import img2 from '../../../src/image/surface.jpeg'
-import img3 from '../../../src/image/desinfecter-les-locaux.jpeg'
-import img4 from '../../../src/image/insecte.png'
+import img1 from '../../../src/image/moquette.jpeg';
+import img2 from '../../../src/image/surface.jpeg';
+import img3 from '../../../src/image/desinfecter-les-locaux.jpeg';
+import img4 from '../../../src/image/insecte.png';
 
 const contentStyle = {
   height: '160px',
@@ -331,10 +332,10 @@ const PrestationSection = (
           onCancel={() => setVisiblePackClean(false)}
           width={1000}
         >
-          <p>
+          <SentenceModal>
             Utilisation de produits professionnels et adaptés à la surface traitée.
 
-          </p>
+          </SentenceModal>
         </Modal>
         <Modal
           title="PACK CLEAN +"
@@ -344,10 +345,10 @@ const PrestationSection = (
           onCancel={() => setVisiblePackCleanPlus(false)}
           width={1000}
         >
-          <p>
+          <SentenceModal>
             Nous reprenons exactement les mêmes prestations que dans le PACK CLEAN tout en rajoutant l’entretien des textiles : moquettes, canapés , fauteuils.
             Nous traiterons cette espèce par technique d’aspiration injectrice extractive.
-          </p>
+          </SentenceModal>
         </Modal>
         <Modal
           title="PACK DESINFECTION"
@@ -357,41 +358,41 @@ const PrestationSection = (
           onCancel={() => setVisibleDesinfection(false)}
           width={1000}
         >
-          <p>
+          <SentenceModal>
             1. Regroupe toutes les prestations visant à réduire les contaminations microbiennes en
             éliminant efficacement tous les microorganismes présents .
-          </p>
-          <p>
+          </SentenceModal>
+          <SentenceModal>
             2. Maximise les chances de travailler dans un environnement sain avec l’amélioration de la
             qualité de l’air intérieur
-          </p>
-          <p>
+          </SentenceModal>
+          <SentenceModal>
             3. A titre préventif, désinfecter ses locaux prouve votre intérêt concernant la santé de vos
             employés, collaborateurs et clients. L’article L.4121-1 du code du travail vous incite à veiller
             sur la santé physique et mentale de vos employés.
-          </p>
-          <p>
+          </SentenceModal>
+          <SentenceModal>
             4. L’agrément CERTIBIOCIDE délivré par le ministère de l’écologie et du développement durable
             vous garantira une prestation de qualité. Nous respectons un protocole rigoureux fixé par le
             gouvernement. L’utilisation des produits requiert une durée d’application suivi d’un délai de
             réentrée.
-          </p>
-          <p>
+          </SentenceModal>
+          <SentenceModal>
             Ce PACK complet optimise le ralentissement de la propagation des virus et bactéries et
             permet ainsi de prévenir les risques de transmission de maladies.
-          </p>
-          <p>
+          </SentenceModal>
+          <SentenceModal>
             POSSIBILITÉ D’EFFECTUER LA PRESTATION SEULE.
-          </p>
-          <p>
+          </SentenceModal>
+          <SentenceModal>
             Notre société proposera des
             tarifs dégressifs en fonction de la fréquence de passage( prestation unique ou abonnement mensuel/
             trimestriel/annuel).
-          </p>
-          <p>
+          </SentenceModal>
+          <SentenceModal>
             Nous vous remettrons un certificat de désinfection de vos locaux qui prouvera que vous avez fait
             appel à NEF HYGIÈNE qui vous garantit une prestation qualitative et conforme à ses engagements.
-          </p>
+          </SentenceModal>
         </Modal>
         <Modal
           title="PACK 3D"
@@ -401,20 +402,20 @@ const PrestationSection = (
           onCancel={() => setVisible3d(false)}
           width={1000}
         >
-          <p>
+          <SentenceModal>
             En plus d’être expert en désinfection , notre entreprise est spécialisé contre les rongeurs et insectes.
             Nous agissons par principe de lutte raisonnée. De ce fait nous utiliserons des méthodes en respectant l’écologie et l’économie. 
-          </p>
-          <p>  
+          </SentenceModal>
+          <SentenceModal>  
             Ces techniques se voudront non dangereuse pour l’Homme et l’environnement, avec à long terme , la diminution de l’application de ces produits en ne les utilisant
             qu’en dernier lieu et à minima.
-          </p>
-          <p>
+          </SentenceModal>
+          <SentenceModal>
             NEF HYGIÈNE interviendra dans les plus bref délais de façon efficace et ponctuelle.  tout d’abord nous effectuerons un diagnostic afin d’avoir une vision globale du site puis nous déterminerons à quelle(s) espèce(s) nous avons à faire .
-          </p>
-          <p>
+          </SentenceModal>
+          <SentenceModal>
             Ensuite nous mettrons en place un plan précis afin de pouvoir agir sur du long terme contre ces nuisibles.
-          </p>
+          </SentenceModal>
         </Modal>
         <SentencePrestationWrap>
           <SentencePrestation>Il est de notre devoir commun d'entretenir un lieu <span style={{ fontWeight: "900"}}>PROPRE ET DÉSINFECTER.</span></SentencePrestation>

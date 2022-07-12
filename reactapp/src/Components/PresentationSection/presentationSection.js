@@ -7,16 +7,12 @@ import image3 from "../../../src/image/centre_de_sante.jpeg";
 import image4 from "../../../src/image/logement.jpeg";
 import image5 from "../../../src/image/hotel.jpeg";
 import image6 from "../../../src/image/transportscommun.jpg";
-import image7 from '../../../src/image/ecole.jpeg'
+import image7 from '../../../src/image/ecole.jpeg';
 
 
 import 'antd/dist/antd.css';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faMartiniGlassCitrus } from '@fortawesome/free-solid-svg-icons'
-
 import {
-  BtnWrap,
   Column1,
   Column2,
   Heading,
@@ -27,10 +23,10 @@ import {
   Subtitle,
   TextWrapper,
   TopLine,
-  Img,
   Carousel,
   ImgWrap,
   TitleImage,
+  SentenceSpan
 } from './presentationSectionElements';
 
 const Presentation = (
@@ -87,7 +83,7 @@ const Presentation = (
                 <TopLine>Qui sommes nous ?</TopLine>
                 <Heading lightText={lightText}>NEF HYGIENE</Heading>
                 <Subtitle darkText={darkText}>
-                  Entreprise spécialisée dans la désinfection de lieux en tout genre, <span style={{ fontWeight: "900"}}>NEF HYGIÈNE</span> s’impose parmi
+                  Entreprise spécialisée dans la désinfection de lieux en tout genre, <SentenceSpan>NEF HYGIÈNE</SentenceSpan> s’impose parmi
                   les experts de qualité dans l’hygiène globale de locaux.
                 </Subtitle>
                 <Subtitle>
@@ -95,14 +91,17 @@ const Presentation = (
                   à votre demande vous est proposée.
                 </Subtitle>
                 <Subtitle>
-                  Notre expert certifié <span style={{ fontWeight: "900"}}>certibiocide</span> se fera un plaisir de vous accompagner au plus proche de vos
+                  Notre expert certifié <SentenceSpan>certibiocide</SentenceSpan> se fera un plaisir de vous accompagner au plus proche de vos
                   besoins grâce à un suivi régulier, même après notre passage ! 
                 </Subtitle>
                 <Subtitle>
-                <span style={{ fontWeight: "900"}}>NEF HYGIÈNE</span> intervient en<span style={{ fontWeight: "900"}}> Auvergne-Rhône-Alpes !</span>
+                <SentenceSpan>NEF HYGIÈNE</SentenceSpan> intervient en<SentenceSpan> Auvergne-Rhône-Alpes !</SentenceSpan>
                 </Subtitle>
                 <Subtitle>
-                  Exemple de lieux de services :
+                  Exemple de lieux de services : 
+                </Subtitle>
+                <Subtitle>
+                  Bureaux, Hôtellerie, Hall d’Immeuble, Commerce, Centre de santé, Logement, Centre de formation, Transport public, Administration, Open Space etc
                 </Subtitle>
               </TextWrapper>
             </Column1>

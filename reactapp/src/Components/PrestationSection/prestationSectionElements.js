@@ -180,3 +180,8 @@ export const SentencePrestation = styled.p`
     color: #000;
     font-family: 'Gantari', sans-serif;
 `;
+
+export const SentenceModal = styled.p`
+    font-family: 'Gantari', sans-serif;
+    font-weight: bold;
+`;

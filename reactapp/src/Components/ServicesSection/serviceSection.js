@@ -14,7 +14,8 @@ import {
   TopLine,
   Img,
   Column3,
-  ImgWrapper
+  ImgWrapper, 
+  SentenceSpan,
 } from './serviceSectionElements';
 
 import { Carousel } from 'react-bootstrap';
@@ -56,15 +57,15 @@ const ServiceSection = (
                 <TopLine>Nos services</TopLine>
                 <Heading lightText={lightText}>Pourquoi faire appels à services ?</Heading>
                 <Subtitle darkText={darkText}>
-                  Comprendre les attentes, les besoins et être à l’entière écoute de notre clientèle fait de  <span style={{ fontWeight: "900"}}>NEF HYGIÈNE </span>
+                  Comprendre les attentes, les besoins et être à l’entière écoute de notre clientèle fait de  <SentenceSpan>NEF HYGIÈNE </SentenceSpan>
                   une société proche de ses clients. 
                 </Subtitle>
                 <Subtitle> 
-                  <span style={{ fontWeight: "900"}}>Trouver</span> des solutions adaptées <span style={{ fontWeight: "900"}}>ensemble</span> est notre satisfaction première.
+                  <SentenceSpan>Trouver</SentenceSpan> des solutions adaptées <SentenceSpan>ensemble</SentenceSpan> est notre satisfaction première.
                 </Subtitle>
                 <Subtitle>
-                  <span style={{ fontWeight: "900"}}>NEF HYGIÈNE</span> met à votre disposition son professionnalisme de haut niveau et sa polyvalence dans les différentes
-                  missions à effectuer, <span style={{ fontWeight: "900"}}>alors n'hésitez plus !</span>
+                  <SentenceSpan>NEF HYGIÈNE</SentenceSpan> met à votre disposition son professionnalisme de haut niveau et sa polyvalence dans les différentes
+                  missions à effectuer, <SentenceSpan>alors n'hésitez plus !</SentenceSpan>
                 </Subtitle>
                 <Subtitle>
                   Que vous soyez professionnel ou particulier, notre

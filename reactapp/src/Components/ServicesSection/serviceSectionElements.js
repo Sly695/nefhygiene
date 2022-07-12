@@ -122,3 +122,12 @@ export const ImgWrapper = styled.div`
         flex-direction: column;
     }
 `;
+
+export const SentenceSpan = styled.span`
+    font-weight: 900; 
+    font-size: 19px;
+
+    @media screen and (max-width: 768px){
+        font-size: 15px;
+    }
+`;

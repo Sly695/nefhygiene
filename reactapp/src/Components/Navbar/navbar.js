@@ -40,7 +40,7 @@ const Navbar = ({toggle}) => {
             <IconContext.Provider value={{ color: '#fff' }}>
                 <Nav scrollNav={scrollNav}>
                     <NavbarContainer>
-                        <NavLogo to="/" onClick={toggleHome} src={nefLogo}></NavLogo>
+                        <NavLogo to="/" onClick={toggleHome} src={nefLogo} srcset="../../../src/image/LogoNEF-mobile.svg 2x" sizes="60px" class="image-responsive"></NavLogo>
                         <MobileIcon onClick={toggle}>
                             <FaBars />
                         </MobileIcon>

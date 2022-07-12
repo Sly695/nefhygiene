@@ -1,9 +1,4 @@
 import styled from "styled-components";
-import image from "../../../src/image/bureaux.jpeg";
-import image1 from "../../../src/image/hotel.jpeg";
-import image2 from "../../../src/image/usine.jpg";
-import image3 from "../../../src/image/centre_de_sante.jpeg";
-import image4 from "../../../src/image/logement.jpeg";
 
 export const InfoContainer = styled.div`
     color: #fff;
@@ -71,7 +66,7 @@ export const TextWrapper = styled.div`
 export const TopLine = styled.p`
     color: #02AFE7;
     line-height: 16px;
-    font-weight: 700;
+    font-weight: 900;
     letter-spacing: 1.4px;
     text-transform: uppercase;
     margin-bottom: 16px;
@@ -170,7 +165,13 @@ export const TitleImage = styled.h1`
     top: 85px;
     font-weight: 600;
     font-family: 'Gantari', sans-serif;
+`;
 
+export const SentenceSpan = styled.span`
+    font-weight: 900;
+    font-size: 19px;
 
-    
+    @media screen and (max-width: 768px) {
+        font-size: 15px;
+    }
 `;
