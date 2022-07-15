@@ -13,7 +13,7 @@ import {
     NavBtn,
     NavBtnLink
 } from './navbarElements';
-import nefLogo from '../../../src/image/LogoNEF.svg'
+import nefLogo from '../../../src/image/nefhygienelogo.svg'
 
 const Navbar = ({toggle}) => {
 
@@ -40,7 +40,7 @@ const Navbar = ({toggle}) => {
             <IconContext.Provider value={{ color: '#fff' }}>
                 <Nav scrollNav={scrollNav}>
                     <NavbarContainer>
-                        <NavLogo to="/" onClick={toggleHome} src={nefLogo} srcset="../../../src/image/LogoNEF-mobile.svg 2x" sizes="60px" class="image-responsive"></NavLogo>
+                        <NavLogo to="/" onClick={toggleHome} src={nefLogo}></NavLogo>
                         <MobileIcon onClick={toggle}>
                             <FaBars />
                         </MobileIcon>
