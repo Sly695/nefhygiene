@@ -28,10 +28,12 @@ export const Icon = styled.img`
     height: 100px;
     cursor: pointer;
     background-repeat: no-repeat;
+    padding: 10px;
 
     @media screen and (max-width: 768px){
         width: 60px;
-        height: 60px;    
+        height: 60px;   
+        padding: 3px; 
     }
 `;
 

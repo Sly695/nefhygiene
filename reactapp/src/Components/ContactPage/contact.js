@@ -16,7 +16,7 @@ import {
     SidebarRouteContact
 } from './contactElements';
 
-import img from '../../image/LogoNEF.svg';
+import img from '../../image/nefhygienelogo.svg';
 import { useNavigate } from 'react-router-dom';
 
 
