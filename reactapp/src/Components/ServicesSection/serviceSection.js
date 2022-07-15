@@ -55,7 +55,7 @@ const ServiceSection = (
             <Column1>
               <TextWrapper>
                 <TopLine>Nos services</TopLine>
-                <Heading lightText={lightText}>Pourquoi faire appels à services ?</Heading>
+                <Heading lightText={lightText}>Pourquoi faire appel à nos services ?</Heading>
                 <Subtitle darkText={darkText}>
                   Comprendre les attentes, les besoins et être à l’entière écoute de notre clientèle fait de  <SentenceSpan>NEF HYGIÈNE </SentenceSpan>
                   une société proche de ses clients. 
